@@ -501,6 +501,7 @@ X11_InitModes_XRandR(_THIS)
                 if(xft_dpi > 0) {
                     displaydata->hdpi = (float)xft_dpi;
                     displaydata->vdpi = (float)xft_dpi;
+                    displaydata->ddpi = (float)xft_dpi;
                 }
 
                 displaydata->scanline_pad = scanline_pad;
